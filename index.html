@@ -3,45 +3,52 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./index.css" />
 </head>
 
 <body>
 
     <div class="top-heading">
-        <h1>Web Accessibility</h1>
-        <p>Making websites everyone can use.</p>
+        <h1>JavaScript Fundamentals</h1>
+        <p>Making pages come alive with JavaScript</p>
     </div>
 
     <div>
         <ul class="menu">
             <li class="menuitem">Home</li>
-            <li class="menuitem">Web Accessibility</li>
+            <li class="menuitem">JavaScript</li>
             <li class="menuitem">About</li>
             <li class="menuitem">Contact</li>
         </ul>
 
         <div class="main">
-            <h2>Why use Accessibility?</h2>
+            <h2>What is JavaScript?</h2>
             <ul>
-                <li>Accessibility means that people are empowered, can be independent, and will not be frustrated by something that is poorly designed or implemented.</li>
-                <li>Familiarity is key to properly implementing accessibility.</li>
+                <li>JavaScript is a scripting or programming language that allows you to implement complex features on web pages</li>
+                <li>With JavaScript, user experiences and interfaces become much more elaborate than if a page simply used HTML on their site</li>
             </ul>
-            <img src="./images/sigmund-unsplash.jpg" style="width:100%" alt="Scene of a set of railroad tracks">
+            <img src="./images/technology-pixabay.jpg" style="width:100%" alt="Scene of a set of railroad tracks">
         </div>
     </div>
 
 
     <div>
-        <h2>Web Accessibility</h2>
-        <p>All people deserve to be treated the same and accessibility allows all users to interact with the site using tools they are used to.  This means that if people use a particular web page, they should view and interact with the site in familiar ways. That is, people should expect their web pages to respond to their devices without much effort.</p>
-        <p><a href="https://www.w3.org/standards/webdesign/accessibility"
-                title="More information about web accessibility can be found here">Learn more about web accessibility here</a></p>
+        <h2>Why JavaScript</h2>
+        <p>JavaScript a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and interact with content located on remote servers. JavaScript has been the premier scripting language for web pages since 1995 and continues to this day to grow in popularity
+            </p>
+        <p><a href="https://www.w3.org/standards/webdesign/script"
+                title="More information about JavaScript can be found here">Learn more about JavaScript here</a></p>
         <div>
-            <button>Contact Us</button>
+            <button onclick="showAlert('hi from the button');">Alert Button</button>
         </div>
         </ul>
     </div>
+
+    <script>
+        function showAlert(alertMessage) {
+            alert(alertMessage);
+        }
+    </script>
 
 </body>
 
